@@ -46,3 +46,6 @@ Otherwise, you can just run it as is.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request!
+
+## 新增1920*1080 分辨率支持
+using for ubuntu
