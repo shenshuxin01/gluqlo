@@ -39,7 +39,7 @@ const int DEFAULT_HEIGHT = 768;
 
 bool twentyfourh = true;
 bool leadingzero = false;
-bool fullscreen = false;
+bool fullscreen = true;
 bool animate = true;
 bool anykeyclose = false;
 
@@ -327,7 +327,7 @@ Uint32 update_time(Uint32 interval, void *param) {
 int main(int argc, char** argv ) {
 	char *wid_env;
 	static char sdlwid[100];
-	double display_scale_factor = 1;
+	double display_scale_factor = 1.4;
 
 	Uint32 wid = 0;
 	Display *display;
